@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +7,7 @@
     <title>Spacetour</title>
     <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
 </head>
 <body>
     <header class="cabecalho">
@@ -20,26 +21,26 @@
             </div>
         </ul>
     </header>
+    <h2>Quer participar dessa experiencia DE OUTRO MUNDO? Fale conosco!</h2>
     <section class="fundoFormulario">
-        <div>
-            <form action="index.html" class="formulario">
+            <form class="formulario" action="index.html" method="get">
                 <label for="nome">Nome</label>
-                <input type="text" name="nome" placeholder="Joaozinho" required>
+                <input type="text" name="nome" placeholder="Joaozinho">
                 <label for="sobrenome">Sobrenome</label>
-                <input type="text" name="sobrenome" placeholder="da Silva" required>
+                <input type="text" name="sobrenome" placeholder="da Silva">
                 <label for="sobrenome">E-mail</label>
-                <input type="email" name="E-mail" placeholder="joaozinhodasilva@gmail.com" required>
-                <label for="sobrenome">CPF</label>
-                <input type="text" name="cpf" placeholder="987.654.432-10" required>
-                <label for="sobrenome">Genero</label>
-                <input type="text" name="genero" placeholder="Genero" required>
+                <input type="email" name="E-mail" placeholder="joaozinho@exemplo.com" >
+                <label for="cpf">CPF</label>
+                <input type="text" name="cpf" placeholder="987.654.432-10">
+                <label for="genero">Genero</label>
+                <input type="text" name="genero" placeholder="Genero">
                 <label for="sobrenome">Data de nascimento</label>
-                <input type="date" name="datadenascimento" placeholder="DD/MM/AA" required>
+                <input type="date" name="datadenascimento" placeholder="DD/MM/AA">
                 <label for="sobrenome">Qual sua motivação para a viagem?</label>
-                <input type="text" name="motivacao" placeholder="Quero ir porque... " required>
-                <input type="submit" name="enviar">
+                <input type="text" name="motivacao" placeholder="Quero ir porque... ">
+                <input type="submit" name="enviar" id="envioContato" value="Enviar">
             </form>
-        </div>
+
     </section>
 </body>
 </html>
